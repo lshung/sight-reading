@@ -1,6 +1,6 @@
 html, body{
-	position: absolute;
-	margin-left: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /* ========== FONTS ========== */
@@ -98,11 +98,11 @@ html, body{
 }
 
 .staff {
-	height: max(100%, 100vh);
+	height: 60vh;
 	width: 100vw;
-	position: absolute;
-	top: 0;
-	left: 0;
+	max-width: 800px;
+	position: relative;
+	margin: 0 auto;
 }
 
 svg {
@@ -148,4 +148,9 @@ header{
 	position:fixed;
 	width:100vw;
 	padding-left: 0.5em;
+}
+
+#answer{
+	text-align: center;
+	font-size: 45px;
 }
