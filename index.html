@@ -1,35 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
-    <title>Staff.js</title>
-	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sight reading practice</title>
 	<!-- CSS -->
-    <link rel="stylesheet" href="assets/css/staff.css" />
-	
-	<!-- JavaScript -->
-	<script src="assets/js/staff.js"></script>
-
+	<link rel="stylesheet" href="assets/css/staff.css" />
 </head>
 <body>
-	
-	<header>
-		
-	</header>
 	<div id="staffDiv" class="staff"></div>
-	<script>
 
-		// create a new staff
-		var myStaff =  new Staff({
-			id: "myStaff",
-			at: "staffDiv",
-			clef: "treble",
-			accidental: "sharp",
-			color: "#000000"
-		});
-
-		// set notes (C major chord)
-		myStaff.setNotes([60,64,67]);
-		
-	</script>
+	<!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="assets/js/staff.js"></script>
+	<script src="assets/js/script.js"></script>
 </body>
+</html>
